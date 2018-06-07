@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zabbix_export>
+    <version>3.0</version>
+    <date>2018-06-06T11:50:47Z</date>
+    <value_maps>
+        <value_map>
+            <name>SNMP interface (dot3StatsDuplexStatus)</name>
+            <mappings>
+                <mapping>
+                    <value>1</value>
+                    <newvalue>unknown</newvalue>
+                </mapping>
+                <mapping>
+                    <value>2</value>
+                    <newvalue>halfDuplex</newvalue>
+                </mapping>
+                <mapping>
+                    <value>3</value>
+                    <newvalue>fullDuplex</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
+    </value_maps>
+</zabbix_export>
